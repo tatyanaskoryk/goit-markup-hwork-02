@@ -1,11 +1,16 @@
-body {font-family: "Roboto", sans-serif; color: #434455; background-color: var(--white);}
+body {font-family:"Roboto", sans-serif; color: #434455; background-color: var(--white); text-decoration: none;}
+
 :root{--primary-font: "Roboto", sans-serif; --logo-font: "Raleway", sans-serif;
     --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5; --cloud: F4F4FD; --ocean: #404BBF; #000000;}
 
 
-.list {list-style: none;
+.list {
+list-style: none;
 }
-.link {text-decoration: none;}
+.link {
+ text-decoration: none;}
 
-.nav .link{font-family: "Raleway", sans-serif; font-weight: 800; font-size: 18px; line-height: 1.17; letter-spacing: 0.03em;`1}
-.nav .link .studio{}
+ .section {list-style: none; text-decoration: none;
+}
+
+
