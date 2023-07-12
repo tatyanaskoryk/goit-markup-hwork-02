@@ -1,49 +1,11 @@
-body {font-family: Roboto, sans serif; color: #434455; background-color: #FFFFFF;}
+body {font-family: Roboto, sans-serif; color: #434455; background-color: var(--white);}
+:root{--primary-font: Roboto, sans-serif; --logo-font: Relaway, sans-serif;
+    --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5; --cloud: F4F4FD; --ocean: #404BBF; #000000;}
 
 
-.first-list { text-decoration: none;
+.list {list-style: none;
 }
-ul {
-    list-style: none;
-}
+.link {text-decoration: none;}
 
-.nav-webstudio {color: var(--iris, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;}
-
-    .nav-webstudio.web {color:#4D5AE5;}
-
-    .nav-list {color: var(--navyblue, #2E2F42);
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;}
-        
-        .nav-list.link{color: var(--navyblue, #2E2F42);
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            letter-spacing: 0.32px;} 
-
-        .first-list.link{background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;}
-        .first-list.title{color: var(--navyblue, #2E2F42);
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 24px;
-                letter-spacing: 0.4px;}
-        .first-list.text{color: var(--slate, #434455)
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px;
-            letter-spacing: 0.32px;}
-            
+.nav .link{font-family: "Raleway", sans-serif; font-weight: 800; font-size: 18px; line-height: 1.17; letter-spacing: 0.03em;}
+.nav .link .studio{}
