@@ -1,4 +1,4 @@
-body {font-family: Roboto, Relaway, sans serif; color: #f4f4fd, #E7E9FC, #4E5AE5, #2E2F42, #404BBF, #434455, #FFFFFF, #000000; background-color: #FFF;}
+body {font-family: Roboto, sans serif; color: #434455; background-color: #FFFFFF;}
 
 
 .first-list { text-decoration: none;
@@ -6,3 +6,44 @@ body {font-family: Roboto, Relaway, sans serif; color: #f4f4fd, #E7E9FC, #4E5AE5
 ul {
     list-style: none;
 }
+
+.nav-webstudio {color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+    .nav-webstudio.web {color:#4D5AE5;}
+
+    .nav-list {color: var(--navyblue, #2E2F42);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;}
+        
+        .nav-list.link{color: var(--navyblue, #2E2F42);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.32px;} 
+
+        .first-list.link{background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;}
+        .first-list.title{color: var(--navyblue, #2E2F42);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.4px;}
+        .first-list.text{color: var(--slate, #434455)
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;}
+            
