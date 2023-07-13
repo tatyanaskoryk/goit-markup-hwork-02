@@ -21,8 +21,15 @@ list-style: none;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;}
+
 .header-logo-studio{color: var(--navyblue, #2E2F42);
 }
+.header-menu-link{color: var(--navyblue, #2E2F42
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;}
