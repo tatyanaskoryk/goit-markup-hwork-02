@@ -1,9 +1,13 @@
-body {font-family:
-    'Roboto', sans-serif; color: #434455; background-color: var(--white);}
+
 
 :root{--primary-font: 'Roboto', sans-serif; --logo-font: 'Raleway', sans-serif;
     --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5; --cloud: F4F4FD; --ocean: #404BBF; #000000;}
-
+body {
+    font-family:
+        'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--white);
+}
 
 .list {
 list-style: none;
@@ -11,14 +15,10 @@ list-style: none;
 .link {
  text-decoration: none;}
 
- .section {list-style: none; text-decoration: none;
-}
-
 
 .header-logo{color: var(--iris, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -26,10 +26,10 @@ list-style: none;
 
 .header-logo-studio{color: var(--navyblue, #2E2F42);
 }
-.header-menu-link{color: var(--navyblue, #2E2F42
+.header-menu-link{color: var(--navyblue, #2E2F42);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;}
+
+    address{font-style:normal;}
