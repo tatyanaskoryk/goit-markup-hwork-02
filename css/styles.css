@@ -26,10 +26,25 @@ list-style: none;
 
 .header-logo-studio{color: var(--navyblue, #2E2F42);
 }
-.header-menu-link{color: var(--navyblue, #2E2F42);
+.header-menu-link{color: var(--navyblue, #434455);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;}
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
 
     address{font-style:normal;}
+
+   .button-item-all{color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;}
+
+
+.section-picture-title{color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+        
