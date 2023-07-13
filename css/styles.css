@@ -1,6 +1,7 @@
-body {font-family:"Roboto", sans-serif; color: #434455; background-color: var(--white); text-decoration: none;}
+body {font-family:
+    'Roboto', sans-serif; color: #434455; background-color: var(--white);}
 
-:root{--primary-font: "Roboto", sans-serif; --logo-font: "Raleway", sans-serif;
+:root{--primary-font: 'Roboto', sans-serif; --logo-font: 'Raleway', sans-serif;
     --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5; --cloud: F4F4FD; --ocean: #404BBF; #000000;}
 
 
@@ -14,3 +15,14 @@ list-style: none;
 }
 
 
+.header-logo{color: var(--iris, #4D5AE5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+.header-logo-studio{color: var(--navyblue, #2E2F42);
+}
