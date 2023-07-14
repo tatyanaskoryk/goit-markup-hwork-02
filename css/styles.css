@@ -194,25 +194,8 @@ list-style: none;
 .button-all:focus {color: #FFFFFF; background-color: #404BBF;}
 
 
-.btn  {
-     color: #4D5AE5;
-     font-family: inherit;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-     background-color: #f4f4fd;
-     cursor: pointer;
- }
 
- .btn:hover {
-     color: #FFFFFF;
-     background-color: #404BBF;
- }
 
- .btn:focus {
-     color: #FFFFFF;
-     background-color: #404BBF;}
 
 
 
