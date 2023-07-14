@@ -75,7 +75,7 @@ list-style: none;
             letter-spacing: 0.04em;
         background-color: #4D5AE5;}
 
-        .section-one-button:hover{background-color: #403bbf;}
+        .section-one-button:hover{background-color: #404bbf;}
         .section-one-button:focus{background-color: #404BBF;}
 
                 
@@ -180,12 +180,16 @@ list-style: none;
 /* MAIN SECTION-----BUTTONS---------------------- */
 .button-all {
     color: #4D5AE5;
+    font-family:inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #f4f4fd;
+    cursor: pointer;
 }
+.button-all:hover {color: #FFFFFF; background-color: #404BBF;}
+.button-all:focus {color: #FFFFFF; background-color: #404BBF;}
 
 /* ------------MAIN SECTION---------NINE----PICTURES---------- */
 
