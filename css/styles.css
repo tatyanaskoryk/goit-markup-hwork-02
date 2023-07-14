@@ -149,19 +149,30 @@ list-style: none;
 
 /*-----------------PORTFOLIO---------------------------- */
 
+/* ----------------HEADER------------------------------- */
+
+.header-address-link {color:#434455;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+
 /* MAIN SECTION-----BUTTONS---------------------- */
-.button-item-all {
-    #FFF;
+.button-all {
+    color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #f4f4fd;
 }
 
 /* ------------MAIN SECTION---------NINE----PICTURES---------- */
 
  .section-picture-title {
-     #2E2F42;
+     color: #2E2F42;
      font-size: 20px;
      font-style: normal;
      font-weight: 500;
@@ -169,4 +180,10 @@ list-style: none;
      letter-spacing: 0.02em;
  }
 
-        
+ .section-picture-text{color:#434455;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
