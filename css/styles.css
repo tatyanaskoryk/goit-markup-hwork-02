@@ -2,7 +2,7 @@
 
 :root{--primary-font: 'Roboto', sans-serif; --logo-font: 'Raleway', sans-serif;
     --slate: #434455; --navyblue:#2E2F42; --white: #FFFFFF; --iris: #4D5AE5;
-    --cloud: #F4F4FD; --ocean: #404BBF; #000000; }
+    --cloud: #F4F4FD; --ocean: #404BBF; #000000;}
 
 
 
@@ -50,6 +50,7 @@ list-style: none;
 
     /* --------------hero-BUTTONS------------------------ */
 
+    
 
 .section-one {
     background-color: #2E2F42;
