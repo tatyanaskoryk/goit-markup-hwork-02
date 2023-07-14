@@ -31,7 +31,7 @@ list-style: none;
 
 .header-logo-studio{color:#2E2F42;
 }
-.header-menu-link{color:#434455;
+.header-menu-link{color:#2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -39,28 +39,46 @@ list-style: none;
 
     address{font-style:normal;}
 
-    .
+.header-menu-link:hover{color: #404BBF;}
+.header-menu-link:focus{color: #404BBF;}
+
+
+.header-address-link:hover{color: #404BBF;}
+.header-address-link:focus{color: #404BBF;} 
+
+    
 
     /* --------------hero-BUTTONS------------------------ */
 
-    .main-one-title{color:#FFFFFF;
+
+.section-one {
+    background-color: #2E2F42;
+}
+
+    .main-one-title{color:#FFF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;}
+
+
+
+
+
    
         .section-one-button{color:#FFFFFF;
             font-size: 16px;
-
+            font-family:inherit;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.04em;
         background-color: #4D5AE5;}
 
-                .section-one {
-                    background-color: #2E2F42;
-                }
+        .section-one-button:hover{background-color: #403bbf;}
+        .section-one-button:focus{background-color: #404BBF;}
+
+                
 
         /*------------------ SECTION-TWO----------------- */
 
