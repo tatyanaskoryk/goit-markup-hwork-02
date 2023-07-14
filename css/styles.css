@@ -22,7 +22,7 @@ list-style: none;
 /* ----------------HEADER-------------------------- */
 
 .header-logo{color:#4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -39,6 +39,8 @@ list-style: none;
 
     address{font-style:normal;}
 
+    .
+
     /* --------------hero-BUTTONS------------------------ */
 
     .main-one-title{color:#FFFFFF;
@@ -49,7 +51,6 @@ list-style: none;
         letter-spacing: 0.02em;}
    
         .section-one-button{color:#FFFFFF;
-            font-family: Roboto;
             font-size: 16px;
 
             font-weight: 500;
@@ -119,9 +120,9 @@ list-style: none;
 
 .footer{background:#2E2F42;}
 
-.footer-link link{
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+.footer-link {
+    color:#4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
