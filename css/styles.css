@@ -1,7 +1,11 @@
 
 
 :root{--primary-font: 'Roboto', sans-serif; --logo-font: 'Raleway', sans-serif;
-    --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5; --cloud: F4F4FD; --ocean: #404BBF; #000000;}
+    --slate: #434455; --navyblue: 2E2F42; --white: #FFFFFF; --iris: #4D5AE5;
+    --cloud: F4F4FD; --ocean: #404BBF; #000000;}
+
+
+
 body {
     font-family:
         'Roboto', sans-serif;
@@ -15,8 +19,9 @@ list-style: none;
 .link {
  text-decoration: none;}
 
+/* ----------------HEADER-------------------------- */
 
-.header-logo{color: var(--iris, #4D5AE5);
+.header-logo{color:#4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -24,9 +29,9 @@ list-style: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-.header-logo-studio{color: var(--navyblue, #2E2F42);
+.header-logo-studio{color:#2E2F42;
 }
-.header-menu-link{color: var(--navyblue, #434455);
+.header-menu-link{color:#434455;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -34,17 +39,50 @@ list-style: none;
 
     address{font-style:normal;}
 
-   .button-item-all{color: var(--white, #FFF);
+    /* --------------hero-BUTTONS------------------------ */
+
+    .main-one-title{color:#FFFFFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;}
+   
+        .section-one-button{color:#FFFFFF;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+        background-color: #4D5AE5;}
+
+
+
+ .section-one{background-color: #2E2F42;}
+
+
+
+
+
+/*-----------------PORTFOLIO---------------------------- */
+
+/* MAIN SECTION-----BUTTONS---------------------- */
+.button-item-all {
+    #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;}
+    letter-spacing: 0.04em;
+}
 
+/* ------------MAIN SECTION---------NINE----PICTURES---------- */
 
-.section-picture-title{color: var(--navyblue, #2E2F42);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;}
+ .section-picture-title {
+     #2E2F42;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+ }
+
         
